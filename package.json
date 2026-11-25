@@ -1,0 +1,16 @@
+{
+  "name": "cotton-rover-relay",
+  "version": "1.0.0",
+  "description": "Cloud WebSocket relay for remote Wi-Fi/cellular control of cotton research rovers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_relay.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
